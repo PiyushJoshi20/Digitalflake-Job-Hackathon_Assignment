@@ -29,15 +29,103 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+A live demo of the application is available at: [DigitalFlake Admin Panel Demo](#) (replace with actual link if available).
+
+## Features
+
+- User authentication (Login)
+- State management (Add, Edit, Delete)
+- City management (Add, Edit, Delete)
+- Warehouse management (Add, Edit, Delete)
+- Responsive design
+
+## Installation
+
+### Prerequisites
+
+- Node.js and npm installed
+- Git installed
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/digitalflake-admin-panel.git
+
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
+   -cd digitalflake-admin-panel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
+   -npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. start the backend server:
+   -node server.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Start the frontend application:
+   -npm start
+
+## Usage
+Open your browser and navigate to http://localhost:3000 to access the application.
+
+## Login Credentials
+Please use the following credentials to log in:
+--Email: test@example.com
+--Password: password
+
+
+## API Endpoints
+
+## States
+GET /api/states: Get all states
+POST /api/states: Add a new state
+PUT /api/states/:id: Update an existing state
+DELETE /api/states/:id: Delete a state
+
+## Cities
+GET /api/cities: Get all cities
+POST /api/cities: Add a new city
+PUT /api/cities/:id: Update an existing city
+DELETE /api/cities/:id: Delete a city
+
+## Warehouses
+GET /api/warehouses: Get all warehouses
+POST /api/warehouses: Add a new warehouse
+PUT /api/warehouses/:id: Update an existing warehouse
+DELETE /api/warehouses/:id: Delete a warehouse
+
+## Technologies
+Frontend: React
+Backend: Express.js
+Styling: CSS
+State Management: useState (React hooks)
+HTTP Client: Axios
+
+digitalflake-admin-panel/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── CityManagement.js
+│   │   ├── StateManagement.js
+│   │   ├── WarehouseManagement.js
+│   ├── assets/
+│   │   ├── DigitalFlakeLogo.png
+│   ├── App.js
+│   ├── Home.js
+│   ├── Login.js
+│   ├── index.js
+├── server.js
+├── package.json
+├── README.md
+
+
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## Note
+## Please use the email test@example.com and the password password to log in. The SQL Workbench is not opening on my PC, and that's why the database is not connected to the project
 
 ## Learn More
 
