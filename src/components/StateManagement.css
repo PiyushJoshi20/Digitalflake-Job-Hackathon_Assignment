@@ -1,0 +1,77 @@
+.state-management {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.header button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-form {
+    margin-bottom: 20px;
+}
+
+.edit-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-form label {
+    margin-bottom: 10px;
+}
+
+.edit-form input,
+.edit-form select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-form button {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
